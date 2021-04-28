@@ -16,7 +16,7 @@ public class CustomerService {
 	public CustomerService(Connection connection) {
 		this.connection = connection;
 		try {
-			if (connection != null && connection.getSchema() != null && connection.getSchema().equals("dbo")) {
+			if (connection != null && connection.getMetaData().getDatabaseProductName().contains("SQL Server")) { // // Microsoft SQL Server
 				DbType = DBType.SQLServer;
 			}
 		} catch (SQLException e) {

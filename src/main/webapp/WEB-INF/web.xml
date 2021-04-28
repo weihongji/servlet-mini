@@ -9,7 +9,6 @@
 	</welcome-file-list>
 
 	<!-- DB connection -->
-	<!--
 	<context-param>
 		<param-name>driver</param-name>
 		<param-value>com.mysql.cj.jdbc.Driver</param-value>
@@ -26,9 +25,7 @@
 		<param-name>pwd</param-name>
 		<param-value>@ctive123</param-value>
 	</context-param>
-	-->
 	<!--
-	-->
 	<context-param>
 		<param-name>driver</param-name>
 		<param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
@@ -45,6 +42,7 @@
 		<param-name>pwd</param-name>
 		<param-value>safari</param-value>
 	</context-param>
+	-->
 
 	<!-- Servlet -->
 	<servlet>
