@@ -1,0 +1,33 @@
+body {
+	padding-left: 40px;
+}
+
+.title {
+	margin: 20px 0;
+	padding: 0 1rem 0.5rem 0;
+	border-bottom: 2px solid #007bff;
+	display: inline-block;
+	font-weight: 500;
+	line-height: 1.2;
+	font-size: 1.5rem;
+}
+
+table.info {
+	border-collapse: collapse;
+}
+
+table.info td {
+	padding: 10px 5px;
+	border: 1px solid #dee2e6;
+}
+
+.footer {
+	margin: 50px 0 20px;
+	padding-top: 10px;
+	width: 200px;
+	border-top: 2px solid #6c757d;
+}
+
+.footer a {
+	text-decoration: none;
+}
