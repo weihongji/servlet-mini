@@ -26,7 +26,7 @@ public class Inner1 extends HttpServlet {
 			request.setAttribute("managerstatus", manager.getStatus().replace(System.lineSeparator(), "<br/>" + System.lineSeparator()));
 		}
 
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/inner/inner1.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/inner/inner1.jsp");
 		dispatcher.forward(request, response);
 	}
 }

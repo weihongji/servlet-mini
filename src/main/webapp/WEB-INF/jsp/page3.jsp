@@ -2,12 +2,12 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-	<jsp:include page="/header.jsp" />
+	<jsp:include page="/WEB-INF/jsp/header.jsp" />
 	<title>Page 3</title>
 </head>
 <body>
 	<div class="title">保存结果</div>
 	<div>${message}</div>
-	<jsp:include page="/footer.jsp" />
+	<jsp:include page="/WEB-INF/jsp/footer.jsp" />
 </body>
 </html>

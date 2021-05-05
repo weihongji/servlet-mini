@@ -24,7 +24,7 @@ public class Page1 extends HttpServlet {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		RequestDispatcher dispatcher = request.getRequestDispatcher("page1.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/page1.jsp");
 		dispatcher.forward(request, response);
 	}
 }

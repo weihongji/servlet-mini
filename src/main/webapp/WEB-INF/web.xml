@@ -67,7 +67,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>inner1</servlet-name>
-		<url-pattern>/inner/1</url-pattern>
+		<url-pattern>/inner/*</url-pattern>
 	</servlet-mapping>
 
 	<!-- Listener -->

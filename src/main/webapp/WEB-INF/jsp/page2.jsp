@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-	<jsp:include page="/header.jsp" />
+	<jsp:include page="/WEB-INF/jsp/header.jsp" />
 	<style>
 		label {
 			display: inline-block;
@@ -33,6 +33,6 @@
 			<input type="submit" style="margin: 10px 60px;">
 		</div>
 	</form>
-	<jsp:include page="/footer.jsp" />
+	<jsp:include page="/WEB-INF/jsp/footer.jsp" />
 </body>
 </html>

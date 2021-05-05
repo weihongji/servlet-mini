@@ -23,13 +23,13 @@ public class Page2 extends HttpServlet {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		RequestDispatcher dispatcher = request.getRequestDispatcher("page2.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/page2.jsp");
 		dispatcher.forward(request, response);
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setAttribute("message", request.getParameter("name") + " is saved");
-		RequestDispatcher dispatcher = request.getRequestDispatcher("page3.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/page3.jsp");
 		dispatcher.forward(request, response);
 	}
 }

@@ -3,7 +3,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-	<jsp:include page="/header.jsp" />
+	<jsp:include page="/WEB-INF/jsp/header.jsp" />
 	<title>Page 1</title>
 </head>
 <body>
@@ -13,6 +13,6 @@
 		<li><a href="2?id=${m.id}">${m.name}</a></li>
 	</c:forEach>
 	</ul>
-	<jsp:include page="/footer.jsp" />
+	<jsp:include page="/WEB-INF/jsp/footer.jsp" />
 </body>
 </html>
